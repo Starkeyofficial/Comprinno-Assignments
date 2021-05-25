@@ -1,0 +1,24 @@
+1. input the number of testcase
+
+2. for each test case:
+
+    2.1. input the number of sticks
+
+    2.2. input the length of sticks in an array
+
+    2.3. declare an empty list
+    
+    2.4. append each stick with count > 1 in empty list
+
+
+3. if len of resulting list > 3:
+
+4. sort the resulting list
+
+5. reverse the list
+
+6. print the area 
+
+7. else:
+        
+8. print('-1')
