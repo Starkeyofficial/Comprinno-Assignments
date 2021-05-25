@@ -1,0 +1,29 @@
+1. Input the number of test cases.
+
+2. Input the number of minutes(N).
+
+3. Input the space saperated strings into an array (Arr).
+
+4. Initialize flag = 0 to check whether loop break due to unfavourable conditions.
+
+5. For each test case:
+
+    5.1. for index i in range 0 to n-2:
+
+        5.1.1. if(Arr[i] == "cookie" AND Arr[i+1] != "milk")
+
+            5.1.1.1.    flag = 1
+
+            5.1.1.2.    break
+
+6. if(flag == 0 AND Arr[N-1] == "cookie")
+
+    6.1. flag = 1
+
+7. if(flag == 0)
+
+    7.1 print("yes")
+
+    else
+
+    7.2 print("no")

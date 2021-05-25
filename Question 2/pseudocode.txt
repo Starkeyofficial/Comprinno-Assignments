@@ -1,0 +1,23 @@
+1. Define a function with two array inputs to compare skills of two persons.
+
+    1.1. if(all skills of 1st person are equal or greater than 2nd person AND at least one skill of person 1 is strictly greater than person 2)
+
+        1.1.1.  return 1
+
+    1.2. else if(all skills of 2nd person are equal or greater than 1st person AND at least one skill of person 2 is strictly greater than person 1)
+
+        1.2.1   return 2
+
+    1.3. else it means that these two persons cannot be arranged in strictly better order
+
+        1.3.1   return -1
+
+2. Define the main function.
+
+3. Take number of test cases as input.
+
+4. Check test cases for constraint conditions.
+
+5. input the skills of 3 teammates in 3 arrays namely player1, player2, player3.
+
+6. 
