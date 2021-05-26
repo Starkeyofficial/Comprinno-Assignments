@@ -1,0 +1,14 @@
+1. input the number of test cases
+
+2. for each test case:
+
+    2.1. input the value of a, b and n
+
+        2.1.1. for each value of turn
+
+            2.1.1.1. if turn is even or 0, then it is A's turn, otherwise B's
+
+
+    2.2. calculate the result res = max(a,b)/min(a,b)
+
+    2.3. print the result
