@@ -1,0 +1,28 @@
+1. input number of test cases
+
+2. for each test case:
+
+    2.1. input the basic salary
+
+    2.2. calculate the hra and da for each conditions
+
+    if(bs < 1500):
+
+        hra = float(bs * 0.1)
+
+        da = float(bs * 0.9)
+
+        2.2.1. print the result for each condition
+
+        print(float(bs) + hra + da)
+
+    if(bs >= 1500):
+
+        hra = 500
+
+        da = float(bs * 0.98)
+
+        2.2.2. print the result for each condition
+
+        print(float(bs) + float(hra) + da)
+
