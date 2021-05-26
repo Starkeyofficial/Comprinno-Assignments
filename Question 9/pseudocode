@@ -1,0 +1,13 @@
+1. input the number of tesst cases
+
+2. for each test case:
+
+    2.1. input the sixe of array
+
+    2.2. input the array
+
+    2.3. the minimum value can be achieved only if we remove elements adjacent to the minimum number of the array
+
+    2.4. num = min(arr)
+
+    2.5. print the result print(num * (n - 1))
